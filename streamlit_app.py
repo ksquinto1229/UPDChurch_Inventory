@@ -32,9 +32,7 @@ st.markdown(f"## 📝 Connecting to a public Google Sheet")
 rows = conn.execute(f'SELECT * FROM "{sheet_url}"', headers=1)
 rows = rows.fetchall()
 
-gsheets_url = st.secrets["gsheets"]["public_gsheets_url"]
-
-data = get_data(gsheet_connector, gsheets_url)
+data = get_data(conn, sheet_url)
 st.write("👇 Find below the data in the Google Sheet you provided in the secrets:")
 st.dataframe(data)
 
