@@ -18,21 +18,10 @@ def run_query(query):
     rows = rows.fetchall()
     return rows
 
-#sheet_url = st.secrets["public_gsheets_url"]
-#rows = run_query(f'SELECT * FROM "{sheet_url}"')
+sheet_url = st.secrets["public_gsheets_url"]
+rows = run_query(f'SELECT * FROM "{sheet_url}"')
 
 ### Print results.
 #for row in rows:
 #    st.write(f"{row.name} has a :{row.pet}:")
-
-result = conn.execute("""
-    SELECT
-        country
-      , SUM(cnt)
-    FROM
-        "https://docs.google.com/spreadsheets/d/1_rN3lm0R_bU3NemO0s9pbFkY5LQPcuy1pscv8ZXPtg8/"
-    GROUP BY
-        country
-""", headers=1)
-for row in result:
-    print(row)
+st.write(public_gsheets_url)
