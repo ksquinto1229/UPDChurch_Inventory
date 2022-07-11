@@ -9,8 +9,6 @@ conn = connect()
 
 st.title('UPD ChurchInventory App')
 st.header('API made by: Kervee Quinto')
-st.write(spread.url)
-
 
 
 # Perform SQL query on the Google Sheet.
