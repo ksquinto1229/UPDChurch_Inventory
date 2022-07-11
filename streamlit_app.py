@@ -14,8 +14,8 @@ conn = connect()
 #Get Sheet URL
 sheet_url = st.secrets["public_gsheets_url"]
 
-gc = pygsheets.authorize(st.secrets)
-sh = gc.open('UPDChurch_Inventory_Spreadsheet')
+
+sheet.update_cell()
 
 
 df = pd.DataFrame()
