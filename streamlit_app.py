@@ -22,6 +22,8 @@ def query_to_dataframe(_connector, query: str) -> pd.DataFrame:
 def get_data(_connector, gsheets_url) -> pd.DataFrame:
         return query_to_dataframe(_connector, f'SELECT * FROM "{gsheets_url}"')
 
+
+
 #--------HEADER------------------------
 st.title('UPD Church Inventory App')
 st.header('API made by: Kervee Quinto')
@@ -30,6 +32,9 @@ st.markdown(f"## 📝 Connecting to a public Google Sheet")
 rows = conn.execute(f'SELECT * FROM "{sheet_url}"', headers=1)
 rows = rows.fetchall()
 
+data = get_data(gsheet_connector, sheet_url)
+    st.write("👇 Find below the data in the Google Sheet you provided in the secrets:")
+    st.dataframe(data)
 
 #for row in rows:
 #  df = pd.DataFrame(
