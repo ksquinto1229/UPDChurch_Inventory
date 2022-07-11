@@ -1,10 +1,14 @@
 # streamlit_app.py
-
+import pandas
+import requests
 import streamlit as st
 from gsheetsdb import connect
 
 # Create a connection object.
 conn = connect()
+
+streamlit.title('UPD ChurchInventory App');
+streamlit.header('API made by: Kervee Quinto');
 
 # Perform SQL query on the Google Sheet.
 def run_query(query):
