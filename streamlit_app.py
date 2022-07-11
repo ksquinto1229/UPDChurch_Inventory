@@ -14,7 +14,7 @@ conn = connect()
 #Get Sheet URL
 sheet_url = st.secrets["public_gsheets_url"]
 
-gc = pygsheets.authorize(service_file='C:\Users\user\Desktop\melodic-bearing-356014-bf79a26ed93c.json')
+gc = pygsheets.authorize(st.secrets)
 sh = gc.open('UPDChurch_Inventory_Spreadsheet')
 
 
