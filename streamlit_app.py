@@ -1,8 +1,11 @@
 # streamlit_app.py
-import pandas as pd
-import requests
 import streamlit as st
 from gsheetsdb import connect
+import pandas as pd
+import gspread
+from google.oauth2.service_account import Credentials
+from gspread_pandas import Spread, Client
+
 
 # Create a connection object.
 conn = connect()
