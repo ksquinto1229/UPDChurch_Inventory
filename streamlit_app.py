@@ -13,8 +13,7 @@ conn = connect()
 #Get Sheet URL
 sheet_url = st.secrets["public_gsheets_url"]
 
-client = gspread.authorize(creds)
-
+df = pd.DataFrame()
 
 #--------HEADER------------------------
 st.title('UPD Church Inventory App')
