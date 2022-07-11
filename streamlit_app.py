@@ -13,6 +13,9 @@ conn = connect()
 #Get Sheet URL
 sheet_url = st.secrets["public_gsheets_url"]
 
+sh = gc.open('UPDChurch_Inventory_Spreadsheet')
+
+
 df = pd.DataFrame()
 df['name'] = ['John', 'Steve', 'Sarah']
 
@@ -22,6 +25,7 @@ st.header('API made by: Kervee Quinto')
 
 rows = conn.execute(f'SELECT * FROM "{sheet_url}"', headers=1)
 rows = rows.fetchall()
+
 
 #for row in rows:
 #  df = pd.DataFrame(
