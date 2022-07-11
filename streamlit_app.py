@@ -14,6 +14,11 @@ conn = connect()
 #Get Sheet URL
 sheet_url = st.secrets["public_gsheets_url"]
 
+def query_to_dataframe(_connector, query: str) -> pd.DataFrame:
+        rows = _connector.execute(query, headers=1)
+        dataframe = pd.DataFrame(list(rows))
+        return dataframe
+
 def get_data(_connector, gsheets_url) -> pd.DataFrame:
         return query_to_dataframe(_connector, f'SELECT * FROM "{gsheets_url}"')
 
