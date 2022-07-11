@@ -17,9 +17,8 @@ sheet_url = st.secrets["public_gsheets_url"]
 st.title('UPD Church Inventory App')
 st.header('API made by: Kervee Quinto')
 
-rows = conn.execute(query, headers=1)
+rows = conn.execute(f'SELECT * FROM "{sheet_url}"', headers=1)
 rows = rows.fetchall()
-rows = run_query(f'SELECT * FROM "{sheet_url}"')
 
 #for row in rows:
 #  df = pd.DataFrame(
