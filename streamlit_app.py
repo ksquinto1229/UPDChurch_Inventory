@@ -17,12 +17,16 @@ sheet_url = st.secrets["public_gsheets_url"]
 st.title('UPD Church Inventory App')
 st.header('API made by: Kervee Quinto')
 
+rows = conn.execute(query, headers=1)
+rows = rows.fetchall()
+rows = run_query(f'SELECT * FROM "{sheet_url}"')
 
-url = 'https://en.wikipedia.org/wiki/List_of_S%26P_500_companies'
+#for row in rows:
+#  df = pd.DataFrame(
+#    np.random.randn(10, 5),
+#   columns=('col %d' % i for i in range(5)))
+#  st.table(df)
 
-stocks_df = pd.read_html(url, header=0)[0]
-
-stocks_df.head()
 
 
 
