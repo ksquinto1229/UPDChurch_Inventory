@@ -14,6 +14,7 @@ conn = connect()
 sheet_url = st.secrets["public_gsheets_url"]
 
 df = pd.DataFrame()
+df['name'] = ['John', 'Steve', 'Sarah']
 
 #--------HEADER------------------------
 st.title('UPD Church Inventory App')
