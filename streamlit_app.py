@@ -12,7 +12,7 @@ st.header('API made by: Kervee Quinto')
 
 
 # Perform SQL query on the Google Sheet.
-@st.cache(ttl=600)
+#@st.cache(ttl=600)
 def run_query(query):
     rows = conn.execute(query, headers=1)
     rows = rows.fetchall()
