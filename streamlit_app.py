@@ -25,6 +25,7 @@ def get_data(_connector, gsheets_url) -> pd.DataFrame:
 #--------HEADER------------------------
 st.title('UPD Church Inventory App')
 st.header('API made by: Kervee Quinto')
+st.markdown(f"## 📝 Connecting to a public Google Sheet")
 
 rows = conn.execute(f'SELECT * FROM "{sheet_url}"', headers=1)
 rows = rows.fetchall()
