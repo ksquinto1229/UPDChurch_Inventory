@@ -5,6 +5,7 @@ import pandas as pd
 import gspread
 from google.oauth2.service_account import Credentials
 from gspread_pandas import Spread, Client
+import pygsheets
 
 #--------INITIALIZATION------------------------
 # Create a connection object.
