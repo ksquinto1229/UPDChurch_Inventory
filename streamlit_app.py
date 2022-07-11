@@ -19,5 +19,4 @@ rows = run_query(f'SELECT * FROM "{sheet_url}"')
 for row in rows:
     st.write(f"{row.name} has a :{row.pet}:")
     
-what_sheets = worksheet_names()
-ws_choice = st.sidebar.radio('Available worksheets',what_sheets)
+SELECT * FROM "https://docs.google.com/spreadsheets/d/1igr3ftdUzFDUO6SnbjpLLIxiEPHZS19mCBgItU2Hzl4/edit#gid=0"
