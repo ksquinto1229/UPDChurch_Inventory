@@ -14,7 +14,7 @@ st.write(spread.url)
 
 
 # Perform SQL query on the Google Sheet.
-
+@st.cache
 def run_query(query):
     rows = conn.execute(query, headers=1)
     rows = rows.fetchall()
