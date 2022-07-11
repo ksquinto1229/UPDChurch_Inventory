@@ -7,8 +7,8 @@ from gsheetsdb import connect
 # Create a connection object.
 conn = connect()
 
-streamlit.title('UPD ChurchInventory App');
-streamlit.header('API made by: Kervee Quinto');
+streamlit.title('UPD ChurchInventory App')
+streamlit.header('API made by: Kervee Quinto')
 
 # Perform SQL query on the Google Sheet.
 def run_query(query):
