@@ -14,12 +14,8 @@ conn = connect()
 #Get Sheet URL
 sheet_url = st.secrets["public_gsheets_url"]
 
-
-sheet.update_cell()
-
-
-df = pd.DataFrame()
-df['name'] = ['John', 'Steve', 'Sarah']
+def get_data(_connector, gsheets_url) -> pd.DataFrame:
+        return query_to_dataframe(_connector, f'SELECT * FROM "{gsheets_url}"')
 
 #--------HEADER------------------------
 st.title('UPD Church Inventory App')
