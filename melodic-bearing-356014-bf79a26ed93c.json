@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "melodic-bearing-356014",
+  "private_key_id": "bf79a26ed93ca8463fa3621644bf27f9c3225462",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEugIBADANBgkqhkiG9w0BAQEFAASCBKQwggSgAgEAAoIBAQCGmMebF16YUMnm\naJQ7QlD7hyuUdxHXhIRnSXwMu829bzHS/s10QBPXYIY3GjBv73ilr61sayCD9/QL\nM5vw77WGfPtkQ+bOWT/WdZuSdr3TDWKGC2TyBDmAMqDbPm4/6wF4WBzpwNzKwC7+\nf/cb7wYBvXPt5bKGsLy9GLmaeXFqURHihBlMc/UB/OAy3rlSaQXNUXTywPmXI5Ye\nZNhlusXQbb6g3c9J39Yv1qQtMs33AOr+a1o/kZPBO30+U3umVvC6CCPRZfMf3exF\nMb1UxJtVDPUGTuhvdzCfw6fxhBZzgrdqbkmCOwg1zQfCaIzTX+mNXzJNuxroHpgx\nRVknSD0tAgMBAAECgf9Ji2lfNdpkHdwWyIsegxxCBquFsPquo21ct5ECkJGXGUyd\n8e5SlVJI8+QC3MyKyC+0JISaXZ8nkoUKj5+J5ZxgvpFExbWYPPj2JHYLZLMpIHCQ\nSMKcAXRdXaDV1QNo9PVcGFC8E99pLhOgkEpda2hhYzMO2MLOm/S3Sg3cTCNDZhqw\nmM2pxV9gSboyZZzAUJZ7Lh2V8/pkKhWteNQVDlKXp1RrySa80c/m8jaP/Pr7tV1N\nlVauHft0Zm1Uv+Wrsl8zQig3VpEqHnwdwzAtnJB90Vo45vbkE4oNLZbfQ1maNgjU\nQmhORC7h7kGd5ksJQbd/+Uf62VRK33hZNoW16tsCgYEAu/TawHcfui0D5yRxW0A9\nXIzCdgkkrHulmo0bHfA3q1Q4bblC+bPbI2kV8g9dAlWHRn1s6bMjAYbLuXDLpbNz\nmkRe5nzT+e5CdJVf8GyRKkqu3oFM06FOoZKiVWgn8t/P5Sl1oFmQZ5E8z0bRmYyr\nliWlhhsqre7Es6ddCr0C8/sCgYEAt1K9DSsVA21zypln/IX5oK2p0rC6Jj16lQAW\nypY1z5w4wsSIJg1MGHl8CvA/JMK45LYpoZ0Qt/8VdLBo0p0Gu0BZcpN+epgP3JqE\nEtQNyhaOXPuY0TrXXVO+qWISNOuiqkR7707LAiF9atVvbiQw3Q9lotSznb//5CqA\nCQj+ovcCgYA5GRAfKdEMmMI3xJ1fECvT4rrsaqimcUWEptsXBDOVK5ec1YvgGWA3\n6KOPDlW98MeQhWfBsvaubwmSgw6KfvJeaei+citfIJ81lW84tXJ/+4IV/AefvsAJ\nW2dPNL32DUG1pxuho7O3kqp7eVMRJ2e0zCj1jWkwv3kn7m7YZUTxYwKBgH9iQ7F5\nxUE7deFK1aH36myHH+EiIkdeIuaUSEH/PGcFs79K1xwx0zWSfOoQ5J+Dmvx5w9Xk\nEPD5lAwgZMYsjLfi0AS4joNbVHJDABEhPm+1WrkrrpV8oJfeEDccyW/yaHaN3dx8\n0L2rTb3Fj4dmKHoDL+mEiUbNWl9OVOdyU5YjAoGARrTeDkKjqCHVVSjZXjd2Szul\nTFtXvPijnVUPs5FVsNvwcd7S/6iqTT52M6AuYn0i6StsRUyDzq49AjBy9YWUlVjM\nV1w3kb1fWnCiSQfto094zBaCKyJmKFogx9FTwyi34/gWoRN3vOJBxxMObO9M0/U9\nLpp2Gh2fp4HnbqtGk4g=\n-----END PRIVATE KEY-----\n",
+  "client_email": "service-acc@melodic-bearing-356014.iam.gserviceaccount.com",
+  "client_id": "106200976117307817446",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/service-acc%40melodic-bearing-356014.iam.gserviceaccount.com"
+}
