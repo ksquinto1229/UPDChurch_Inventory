@@ -1,6 +1,5 @@
 from lib2to3.pgen2.token import NAME
 import streamlit as st
-from goto import goto, comefrom, label
 
 #---Connect to Google Sheet--------
 from googleapiclient.discovery import build
@@ -23,7 +22,7 @@ if not barcode:
     st.error('No barcode with this value is stored in the Google sheet')
 if barcode:
     try:
-        label .query
+        query:
         #initialize scope
         scope = ["https://spreadsheets.google.com/feeds",'https://www.googleapis.com/auth/spreadsheets',
         "https://www.googleapis.com/auth/drive.file","https://www.googleapis.com/auth/drive"]
@@ -51,7 +50,7 @@ if barcode:
         st.dataframe(df)
         
         if st.button('Refresh Table'):
-            goto .query
+            goto query
         else:
             st.error("No Table Yet")
     
