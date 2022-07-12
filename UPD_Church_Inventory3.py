@@ -1,5 +1,4 @@
 from lib2to3.pgen2.token import NAME
-from turtle import pd
 import streamlit as st
 
 #---Connect to Google Sheet--------
