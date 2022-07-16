@@ -1,6 +1,3 @@
-from lib2to3.pgen2.token import NAME
-from turtle import pd
-
 #---Connect to Streamlit--------------
 import streamlit as st
 st.set_page_config(page_title='UPD Church Inventory API',layout='wide')
